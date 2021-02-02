@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-void shuffle(int &,int &, int &, int &); //Modify input arguments to pointer 
+void shuffle(int *,int *, int *, int *); 
 
 int main(){
 	int a = 50, b = 100, c = 500, d = 1000;
@@ -18,4 +18,6 @@ int main(){
 	return 0;
 }
 
-//Write definition of shuffle() using pointer here 
+void shuffle(int *a,int *b ,int *c ,int *d){
+
+}

@@ -17,3 +17,12 @@ int main(){
 	
 	return 0;
 }
+void shuffle(int &a,int &b,int &c,int &d){
+ 	int r;
+	r = rand()%4+1;
+	if (r==1) return a;
+	else if  (r==2) return b;
+	else if (r==3) return c;
+	else return d;
+
+}
